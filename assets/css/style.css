@@ -1,0 +1,86 @@
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  margin: 25px;
+  padding: 5%;
+  border-bottom: 1px solid black;
+  min-height: 200px;
+  border: 8px solid #6d0343;
+}
+
+
+.header h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  min-width: 100px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* Navigation */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 10px;
+  padding: 5px;
+  text-align: center
+}
+
+nav a {
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: .5px solid #bbbbbb;
+  text-decoration: none;
+  color: #313131;
+}
+
+nav a:hover {
+  color: #6d0343;
+  font-weight: bolder;
+  border-bottom: 1px solid #6d0343;
+}
+
+
+
+/* Media Queries/Responsive Layout */
+
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+
+  .nav li {
+    flex-grow: 1;
+  }
+  
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+
+    .nav  {
+      flex-direction: column; 
+    }
+
+    .header h1 {
+      border-bottom: 1px solid black;
+      font-size: 1em;
+    }
+
+}
