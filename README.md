@@ -1,9 +1,9 @@
 
-# Portfolio Web Page - Module 02 Challenge  
+# Professional Portfolio - Module 02 Challenge  
 
 ## Advanced CSS  
 
-### UCI Irvinie Full-Stack Web Development Bootcamp  
+### UCI Irvine Full-Stack Web Development Bootcamp  
 
 ### To-Do-List  
 
@@ -20,7 +20,7 @@ https://picsum.photos/
 
 https://www.w3docs.com/snippets/css/how-to-resize-images-proportionally-scaled-using-css-for-responsive-web-design.html#:~:text=There%20is%20a%20better%20way,height%20attribute%20on%20the%20image)  
 
-https://devpractical.com/two-column-layout-html-css/  #:~:text=A%20two%20column%20layout%20is,the%20content%20into%20related%20sections
+https://devpractical.com/two-column-layout-html-css/#:~:text=A%20two%20column%20layout%20is,the%20content%20into%20related%20sections  
 
 https://stackoverflow.com/questions/37386244/what-does-flex-1-mean  
 
